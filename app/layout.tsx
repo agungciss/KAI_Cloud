@@ -10,8 +10,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "StoreIt",
-  description: "StoreIt - The only storage solution you need.",
+  title: "KAI Cloud",
+  description: "KAI Cloud - The only storage solution you need.",
 };
 
 export default function RootLayout({

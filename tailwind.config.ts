@@ -11,8 +11,8 @@ const config: Config = {
   	extend: {
   		colors: {
   			brand: {
-  				'100': '#EA6365',
-  				DEFAULT: '#FA7275'
+  				'100': '#eb6a28',
+  				DEFAULT: '#2c2a6b'
   			},
   			red: '#FF7474',
   			error: '#b80000',
@@ -99,6 +99,7 @@ const config: Config = {
   		}
   	}
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 };
 export default config;
